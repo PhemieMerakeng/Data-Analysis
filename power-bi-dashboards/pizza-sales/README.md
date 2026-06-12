@@ -73,18 +73,16 @@ Power BI dashboard analyzing pizza sales performance. All KPIs and analysis were
 
 ## 💡 Key Insights from Analysis
 
-| Insight | Finding |
-|---------|---------|
-| 🥧 **Best Selling Category** | Classic pizzas lead with 26.91% of total sales |
-| 📏 **Most Popular Size** | Large pizzas dominate at nearly 46% of sales |
-| 📅 **Peak Day** | [Insert day with highest orders - e.g., Friday or Weekend] |
-| ⏰ **Peak Hour** | [Insert peak hour from hourly trend analysis] |
-| 🏆 **Top Pizza by Revenue** | [Insert top pizza name and revenue] |
-| 🏆 **Top Pizza by Quantity** | [Insert top pizza name and quantity sold] |
-| 🏆 **Top Pizza by Orders** | [Insert top pizza name and order count] |
-| ⚠️ **Lowest Performing Pizza** | [Insert worst pizza name and metric] |
-| 📈 **Best Month** | [Insert month with highest sales] |
-| 📉 **Slowest Month** | [Insert month with lowest sales] |
+* 🥧 **Best Selling Category**
+* 📏 **Most Popular Size**
+* 📅 **Peak Day**
+* ⏰ **Peak Hour**
+* 🏆 **Top Pizza by Revenue**
+* 🏆 **Top Pizza by Quantity**
+* 🏆 **Top Pizza by Orders**
+* ⚠️ **Lowest Performing Pizza**
+* 📈 **Best Month**
+* 📉 **Slowest Month**
 
 ---
 
@@ -99,47 +97,6 @@ Before building the dashboard in Power BI, all KPIs and analysis were first calc
 - Top and bottom 5 pizzas by revenue, quantity, and total orders
 
 Each SQL result was saved and used as a benchmark. The same metrics were then recreated in Power BI using DAX measures, and results were compared to verify accuracy before any visuals were built.
-
----
-
-## 💻 SQL Queries Executed
-
-All SQL queries used in this project are included in the `sql_queries/` folder. The queries demonstrate:
-
-- Aggregate functions (SUM, COUNT, DISTINCT)
-- CAST and DECIMAL conversions for precise calculations
-- Subqueries for percentage calculations
-- DATENAME function for day and month extraction
-- TOP 5 filtering with ORDER BY (DESC and ASC)
-- GROUP BY for category and size aggregations
-- WHERE clause for filtering by month or category
-
----
-
-## 📊 SQL Query Results Summary
-
-| KPI | SQL Result |
-|-----|-------------|
-| 💰 Total Revenue | $817,860 |
-| 💵 Average Order Value | $38.31 |
-| 🍕 Total Pizzas Sold | 49,574 |
-| 📦 Total Orders | 21,350 |
-| 📊 Average Pizzas Per Order | 2.32 |
-
-| 🥧 Category | % of Sales |
-|-------------|-------------|
-| Classic | 26.91% |
-| Supreme | 25.46% |
-| Chicken | 23.96% |
-| Veggie | 23.68% |
-
-| 📏 Pizza Size | % of Sales |
-|---------------|-------------|
-| Large | 45.89% |
-| Medium | 30.49% |
-| Small | 21.77% |
-| X-Large | 1.72% |
-| XX-Large | 0.12% |
 
 ---
 
